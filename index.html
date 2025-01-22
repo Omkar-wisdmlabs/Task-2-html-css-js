@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navbar with Top Icons</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Top Bar -->
+    <div class="bg-light py-2">
+        <div class="container d-flex justify-content-end align-items-center gap-3">
+            <!-- Search -->
+            <div class="d-flex align-items-center top-item">
+                <i class="bi bi-search fs-5 me-1"></i>
+                <input type="text" class="form-control form-control-sm border-0 border-bottom" placeholder="Search" style="width: 150px;">
+            </div>
+            <!-- Sign In -->
+            <div class="d-flex align-items-center top-item">
+                <i class="bi bi-person fs-5 me-1"></i>
+                <span class="fs-6">Sign In</span>
+            </div>
+            <!-- Cart -->
+            <div class="d-flex align-items-center top-item">
+                <i class="bi bi-cart fs-5 me-1"></i>
+                <span class="fs-6">(0)</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="public/logo.png" alt="Logo" height="60">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end pe-5" id="navbarNav">
+                <ul class="navbar-nav gap-4">
+                    <li class="nav-item"><a class="nav-link fw-bold text-dark px-3" href="#">Classes</a></li>
+                    <li class="nav-item"><a class="nav-link fw-bold text-dark px-3" href="#">Program & Events</a></li>
+                    <li class="nav-item"><a class="nav-link fw-bold text-dark px-3" href="#">Blogs</a></li>
+                    <li class="nav-item"><a class="nav-link fw-bold text-dark px-3" href="#">About</a></li>
+                    <li class="nav-item"><a class="nav-link fw-bold text-dark px-3" href="#">Get-Involved</a></li>
+                    <li class="nav-item"><a class="nav-link fw-bold text-dark px-3" href="#">Find a Class</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- 1st div -->
+    <div class="container my-5 p-4 border rounded bg-light ">
+
+        <div class="container">
+            <div class="row">
+                <!-- First Column -->
+                <div class="col-md-8">
+                    <h2 class="fw-bold text-wrap" style="width: 100%;">Let’s Begin Here: Approaching Craft in Fiction Through Character</h2>
+                    <div class="d-flex align-items-center flex-wrap gap-2 mt-3">
+                        <span class="badge author-badge">
+                            <i class="bi bi-person-fill me-1"></i> David William Hill
+                        </span>
+                        <span class="badge bg-danger-subtle text-danger px-3 py-2">Fiction</span>
+                        <span class="badge bg-secondary px-3 py-2">Advanced</span>
+                    </div>
+                </div>
+        
+                <!-- Second Column -->
+                <div class="col-md-4">
+                    <div class="border rounded p-3 text-center price-box">
+                        <div class="d-flex justify-content-between">
+                            <div class="price-item">
+                                <strong class="fs-4">$200</strong><br><small>Member</small>
+                            </div>
+                            <div class="vr"></div>
+                            <div class="price-item">
+                                <strong class="fs-4">$259</strong><br><small>Non-Member</small>
+                            </div>
+                        </div>
+                        <button class="btn btn-danger w-100 mt-3">Sign Up</button>
+                    </div>
+                    <button class="btn btn-outline-dark w-100 mt-3">Apply for Reduced-Rate Spot</button>
+                </div>
+            </div>
+        </div>
+        
+    
+        <!-- Event Details & Pricing -->
+                <div class="row mt-4 align-items-center">
+            <!-- Event Details -->
+            <div class="d-flex flex-column flex-md-row justify-content-between w-100">
+                <!-- Date & Time -->
+                <div class="d-flex align-items-center mb-3 mb-md-0">
+                    <i class="bi bi-calendar-event text-danger me-2 fs-5"></i>
+                    <div>
+                        <strong>Jan 05 - Feb 15</strong> <span class="text-danger">(5 Wednesdays)</span><br>
+                        10:00am - 4:00pm (PST)
+                    </div>
+                </div>
+                <div class="vr mx-3 d-none d-md-block custom-vr"></div> <!-- Vertical Divider -->
+                <!-- Location -->
+                <div class="d-flex align-items-center mb-3 mb-md-0">
+                    <i class="bi bi-geo-alt text-danger me-2 fs-5"></i>
+                    <div>
+                        2042 Balboa St.,<br>San Francisco, CA 94121
+                    </div>
+                </div>
+                <div class="vr mx-3 d-none d-md-block custom-vr"></div> <!-- Vertical Divider -->
+                <!-- Registration Deadline -->
+                <div class="d-flex align-items-center">
+                    <i class="bi bi-clock text-danger me-2 fs-5"></i>
+                    <div>
+                        <strong class="text-dark">Registration deadline:</strong><br>
+                        May 07 at 10:30am (PST)
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- 2nd div -->
+    <div class="container my-5 p-4 border rounded bg-light">
+        <div class="row" style="width: 1127px; height: 1016px;">
+            <!-- First Row -->
+            <div class="row">
+                <!-- First Column -->
+                <div class="col-md-8">
+                    <p>In order to write, one must read constantly, observe the world well, and take seriously the craft of writing. During this five-week course, we will focus on the last of these, the craft of writing—specifically, we will focus on three mainstays of fiction: character, dialogue, and scene.</p>
+                    <p>“I think that writers often feel more comfortable writing exposition and summary than scene, perhaps because in our own lives we often feel more comfortable observing than engaging, and scene is about getting our characters to engage,” says instructor Lori Ostlund. “In this class we will focus on creating scenes as a way to develop characters, demonstrate changes in them, and increase tension.</p>
+                    <p>“We will also spend a lot of time on dialogue, thinking about it as a way to reveal character and relationships and, perhaps most important, as a way to reveal the shifting power dynamics that are at work in those relationships and which create tension.”</p>
+                    <p>We will look at examples from short stories and novels and engage in in-class exercises that focus on these three craft building blocks. Participants will use these exercises to create work at home, which we will workshop during the last two weeks of class. “My goal,” Lori says, “is for us to think about these craft elements in ways that are new and generative.”</p>
+                    <div class="d-flex align-items-center mt-3">
+                        <span>Share:</span>
+                        <i class="bi bi-facebook ms-2"></i>
+                        <i class="bi bi-twitter ms-2"></i>
+                        <i class="bi bi-linkedin ms-2"></i>
+                        <i class="bi bi-link-45deg ms-2"></i>
+                    </div>
+                </div>
+                <!-- Second Column -->
+                <div class="col-md-4 text-center">
+                    <img src="public/profile.jpg" alt="Profile Picture" class="rounded-circle" style="width: 146px; height: 146px;">
+                    <p>John Doe, MFA, writes fiction and nonfiction with a special emphasis on the power of place. Her work has been anthologized and published in venues such as Atlas Obscura, The Los Angeles Times, The Sun, and Best Women’s Travel Writing. She loves to see her students surprise and delight themselves (and others!), whether she’s teaching at City University of New York, the San Francisco Women’s Jail, or The Writing Salon. After many years of living abroad (from Oaxaca to Quito to San Jose, Costa Rica), she now lives in San Francisco. She is also the author of Living Abroad in Costa Rica.</p>
+                    <button class="btn btn-primary">See John's Reviews</button>
+                </div>
+            </div>
+            <!-- Second Row -->
+            <div class="row mt-4" style="width: 1127px; height: 264px; background-image: url('public/background.jpg'); background-size: cover;">
+                <div class="d-flex justify-content-center align-items-center" style="width: 953px; height: 173px; background-color: white; margin: auto;">
+                    <i class="bi bi-quote"></i>
+                    <p class="mx-3">"Erin was a wonderful teacher. She was personable, kind, organized, and great with facilitating group discussion. Katy L."</p>
+                    <i class="bi bi-quote"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

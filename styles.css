@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.event-details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.detail-item {
+    display: flex;
+    align-items: center;
+}
+
+.icon {
+    font-size: 24px;
+    color: red;
+    margin-right: 10px;
+}
+
+.vr {
+    width: 2px;
+    background-color: #000;
+    height: 50px;
+    margin: 0 20px;
+}
+
+.text-danger {
+    color: red;
+}
+
+.text-dark {
+    color: black;
+}
+
+.custom-vr {
+    border-color: #000 !important;
+    border-width: 2px;
+}
+
+.price-box {
+    background: white;
+}
+
+.price-item {
+    text-align: center;
+    flex: 1;
+}
+
+.profile-picture {
+    width: 146px;
+    height: 146px;
+    border-radius: 50%;
+}
+
+.quote-box {
+    width: 953px;
+    height: 173px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
